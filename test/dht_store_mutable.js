@@ -1,8 +1,8 @@
-const common = require('./common')
-const DHT = require('../')
-const ed = require('bittorrent-dht-sodium')
-const test = require('tape')
-const crypto = require('crypto')
+import common from './common.js'
+import DHT from '../index.js'
+import ed from 'bittorrent-dht-sodium'
+import test from 'tape'
+import crypto from 'crypto'
 
 test('local mutable put/get', t => {
   t.plan(4)

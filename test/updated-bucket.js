@@ -1,6 +1,6 @@
-const common = require('./common')
-const DHT = require('../')
-const test = require('tape')
+import common from './common.js'
+import DHT from '../index.js'
+import test from 'tape'
 
 test('adding a node updates the lastChange property', t => {
   t.plan(3)

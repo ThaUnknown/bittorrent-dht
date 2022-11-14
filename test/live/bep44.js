@@ -1,6 +1,6 @@
-const test = require('tape')
-const DHT = require('../../')
-const ed = require('bittorrent-dht-sodium')
+import test from 'tape'
+import DHT from '../../index.js'
+import ed from 'bittorrent-dht-sodium'
 
 test('Set and get before ready is emitted', t => {
   const dht1 = new DHT()

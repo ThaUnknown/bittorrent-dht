@@ -10,6 +10,7 @@
   "bugs": {
     "url": "https://github.com/webtorrent/bittorrent-dht/issues"
   },
+  "type": "module",
   "dependencies": {
     "bencode": "^2.0.3",
     "debug": "^4.3.4",
@@ -42,10 +43,12 @@
     "peer-to-peer"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=12.20.0"
+  },
+  "exports": {
+    "import": "./index.js"
   },
   "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/webtorrent/bittorrent-dht.git"

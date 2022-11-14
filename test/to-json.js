@@ -1,7 +1,7 @@
-const common = require('./common')
-const DHT = require('../')
-const ed = require('bittorrent-dht-sodium')
-const test = require('tape')
+import common from './common.js'
+import DHT from '../index.js'
+import ed from 'bittorrent-dht-sodium'
+import test from 'tape'
 
 test('dht.toJSON: re-use dht nodes with `bootstrap` option', t => {
   t.plan(1)

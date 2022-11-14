@@ -1,6 +1,6 @@
-const common = require('./common')
-const DHT = require('../')
-const test = require('tape')
+import common from './common.js'
+import DHT from '../index.js'
+import test from 'tape'
 
 // https://github.com/webtorrent/bittorrent-dht/pull/36
 test('bootstrap and listen to custom port', t => {
