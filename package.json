@@ -2,7 +2,7 @@
   "name": "bittorrent-dht",
   "description": "Simple, robust, BitTorrent DHT implementation",
   "type": "module",
-  "version": "11.0.0",
+  "version": "11.0.2",
   "author": {
     "name": "WebTorrent LLC",
     "email": "feross@webtorrent.io",
@@ -12,7 +12,7 @@
     "url": "https://github.com/webtorrent/bittorrent-dht/issues"
   },
   "dependencies": {
-    "bencode": "^2.0.3",
+    "bencode": "^3.0.0",
     "debug": "^4.3.4",
     "k-bucket": "^5.1.0",
     "k-rpc": "^5.1.0",
@@ -29,7 +29,7 @@
     "run-parallel": "1.2.0",
     "semantic-release": "19.0.5",
     "standard": "*",
-    "tape": "5.6.1"
+    "tape": "5.6.3"
   },
   "keywords": [
     "torrent",
